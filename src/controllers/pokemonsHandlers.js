@@ -86,7 +86,7 @@ const getPokemonsByName = async (name) => {
             velocidad: pokemon.stats[5].base_stat,
             altura: pokemon.height,
             peso: pokemon.weight,
-            tipos: pokemon.types.map((type) => type.type.name),
+            types: pokemon.types.map((type) => type.type.name),
         };
 
         return pokeapi;
